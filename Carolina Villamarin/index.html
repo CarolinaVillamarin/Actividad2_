@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Moda Femenina</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Vuela Moda</title>
+    <link rel="stylesheet" href="HTML/styles.css">
 </head>
 <body>
     <header>
-        <h1>Moda Femenina</h1>
+        <h1>Vuela Moda</h1>
         <p>Tu tienda online de ropa para mujer</p>
     </header>
     <nav>
@@ -21,13 +21,32 @@
         </ul>
     </nav>
     <main>
+        <section class="hero">
+            <img src="images/banner.jpg" alt="Moda Femenina - Banner" class="banner">
+            <div class="hero-content">
+                <h2>¡Bienvenida a Moda Femenina!</h2>
+                <p>Descubre las últimas tendencias en ropa de mujer. ¡Encuentra tu estilo y luce espectacular cada día!</p>
+                <a href="HTML/catalogo.html" class="btn">Ver Catálogo</a>
+            </div>
+        </section>
         <section>
-            <h2>Bienvenida a Moda Femenina</h2>
-            <p>Descubre las últimas tendencias en ropa de mujer. ¡Encuentra tu estilo y luce espectacular cada día!</p>
+            <h3>Productos Destacados</h3>
             <div class="gallery">
-                <img src="../images/vestido.jpg" alt="Vestido elegante">
-                <img src="../images/blusa.jpg" alt="Blusa moderna">
-                <img src="../images/pantalon.jpg" alt="Pantalón casual">
+                <div class="producto-destacado">
+                    <img src="images/vestido.jpg" alt="Vestido elegante">
+                    <p class="nombre">Vestido elegante</p>
+                    <p class="precio">$120.000</p>
+                </div>
+                <div class="producto-destacado">
+                    <img src="images/blusa.jpg" alt="Blusa moderna">
+                    <p class="nombre">Blusa moderna</p>
+                    <p class="precio">$60.000</p>
+                </div>
+                <div class="producto-destacado">
+                    <img src="images/pantalon.jpg" alt="Pantalón casual">
+                    <p class="nombre">Pantalón casual</p>
+                    <p class="precio">$80.000</p>
+                </div>
             </div>
         </section>
     </main>

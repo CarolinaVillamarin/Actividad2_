@@ -142,3 +142,74 @@ footer {
     border-top: 1px solid #eee;
     margin-top: auto;
 }
+
+.catalogo-grid {
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.producto {
+    position: relative;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    padding: 1em;
+    width: 220px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    background: #fff;
+    text-align: center;
+}
+.carrito {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.3em;
+    cursor: pointer;
+}
+.precio {
+    font-weight: bold;
+    color: #e91e63;
+    margin-top: 0.5em;
+    font-size: 1.1em;
+}
+
+/* Productos destacados en el index */
+.gallery {
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 1em;
+}
+.producto-destacado {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    padding: 1em;
+    text-align: center;
+    width: 200px;
+}
+.producto-destacado img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 0.5em;
+}
+.nombre {
+    font-weight: bold;
+    margin: 0.5em 0 0.2em 0;
+}
+.precio {
+    color: #e91e63;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Banner principal más pequeño */
+.banner {
+    width: 100%;
+    max-height: 160px; /* Puedes ajustar este valor a tu gusto */
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+}
